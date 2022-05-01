@@ -5,10 +5,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: black;
+}
 .link-externo{
    
-    
+    background-color: black;
     display: flex;
  
 }
