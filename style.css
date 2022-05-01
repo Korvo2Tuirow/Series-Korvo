@@ -103,3 +103,11 @@ footer{
     border-radius: 5px;
     font-weight: bolder;
 }
+
+
+
+a{
+    color: inherit;
+    text-decoration: none;
+}    
+    
