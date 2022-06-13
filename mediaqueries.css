@@ -13,10 +13,11 @@
     }
     
     .link{
-        height:auto;
+        height:167px;
         background-color: rgba(10, 10, 10, 0.767);
         color: white;
         text-align: center;
+        align-self: center;
         padding: .5em;
         border-radius: 5px;
         
@@ -30,7 +31,7 @@
         text-align: justify;
         margin: 10px;
         width: 278px;
-        height: auto;
+        height: 382px;
         border-radius: 5px;
         box-shadow: rgba(0, 0, 0, 0.753) 5px 5px 15px;
 
