@@ -6,30 +6,55 @@
     box-sizing: border-box;
 
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 .nav-bar{
-    display: flex;
+    display: flex;   
     width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
+    height: 100px;
+    position: fixed;
+    padding: 0.5rem;
+    align-items:center;
+    justify-content: space-around;
     background-color: black;
     color: white;
     
       
 }
 
-.carrosel{
-    display: flex;
-    width: 50%;
+#series{
+    margin-right: 2em;
     
+}
+
+ul{
+    text-align: center;
+    height: 100%;
+    margin: 1em;
+    
+    
+    
+}
+
+li{
+    display: inline-flex;
+    margin: 0.5em;
+    
+    list-style: none;
+    text-align: center;
+    
+}
+
+li:hover{
+color: rgb(123, 170, 241);
+
 
 }
- .imgcar{
-     width: 50%;
 
- }
+
+
 #resumo{
     display: inline-flex;
     flex-wrap: wrap;
@@ -38,7 +63,7 @@
     background-attachment: fixed;
     background-size: cover;  
     justify-items: center; 
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     
 
@@ -128,6 +153,10 @@ background-image: url(media/luabanner.jpg);
     width:100% ;
     
 }
+.logo{
+    padding: 1em;
+    margin: 2px;
+}
 
 
 
@@ -135,7 +164,7 @@ background-image: url(media/luabanner.jpg);
 .ep{
     
     padding: 3px;
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: rgba(0, 0, 0, 0.753);
     flex-direction: row;
     align-items: center;
     text-align: justify;
@@ -143,7 +172,7 @@ background-image: url(media/luabanner.jpg);
     width: 278px;
     height: 393px;
     border-radius: 5px;
-    box-shadow: rgb(0, 0, 0) 10px 10px 25px;
+    box-shadow: rgba(0, 0, 0, 0.753) 5px 5px 15px;
     
     
 }
