@@ -13,7 +13,7 @@
     }
     
     .link{
-        height:167px;
+        height:auto;
         background-color: rgba(10, 10, 10, 0.767);
         color: white;
         text-align: center;
