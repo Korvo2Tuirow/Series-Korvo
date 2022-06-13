@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@media (max-width: 600px) {
+
+    .ep{
+       
+        padding: 3px;
+        background-color: rgba(0, 0, 0, 0.753);
+        flex-direction: row;
+        align-items: center;
+        text-align: justify;
+        margin: 10px;
+        width: 278px;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.753) 5px 5px 15px;
+
+    }
+
+    .link{
+        height:auto;
+        background-color: rgba(10, 10, 10, 0.767);
+        color: white;
+        text-align: center;
+        padding: .5em;
+        border-radius: 5px;
+        font-weight: bolder;
+    }
+}
