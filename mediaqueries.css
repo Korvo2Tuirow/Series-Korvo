@@ -7,9 +7,19 @@
 
 }
 
-@media (orientation: landscape) and (max-height: 601px) {
+@media (orientation: landscape) and (max-height: 600px) {
     .nav-bar{
         position: relative;
+    }
+    
+    .link{
+        height:auto;
+        background-color: rgba(10, 10, 10, 0.767);
+        color: white;
+        text-align: center;
+        padding: .5em;
+        border-radius: 5px;
+        
     }
 }
 
@@ -37,7 +47,7 @@
         text-align: center;
         padding: .5em;
         border-radius: 5px;
-        font-weight: bolder;
+        
     }
 
     
