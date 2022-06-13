@@ -7,13 +7,13 @@
 
 }
 
-@media (orientation: landscape) and (max-width: 720px) {
+@media (orientation: landscape) and (max-width: 601px) {
     .nav-bar{
         position: relative;
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 600px) {
 
     .ep{
        
