@@ -234,7 +234,7 @@ h1{
 
 [data-anima]{
     opacity: 0;
-    transition: 1.5s;
+    transition: .5s;
     
 }
 
