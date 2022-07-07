@@ -41,6 +41,7 @@ border-radius: 1.5%;
     justify-content: space-around;
     background-color: black;
     color: white;
+    z-index: 3;
     
       
 }
@@ -94,13 +95,14 @@ color: rgb(239, 245, 159);
     display: inline-flex;
     flex-wrap: wrap;
     width: 100%;
-    padding: 150px 0px 150px 0px;
+    padding: 150px;
     background-image: url(media/bghalo.jpg);
     background-attachment: fixed;
     background-size: cover;  
     justify-items: center; 
     justify-content: space-evenly;    
     background-position: right;
+    
     
     
     

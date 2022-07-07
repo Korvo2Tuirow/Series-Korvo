@@ -36,6 +36,12 @@
         box-shadow: rgba(0, 0, 0, 0.753) 5px 5px 15px;
 
     }
+
+
+    .container1{
+       
+        padding: 10px;}
+       
 }
 
 @media (max-width: 600px) {
@@ -64,6 +70,20 @@
         border-radius: 5px;
         
     }
+
+    
+    .container1{
+       
+        padding: 0px;}
+
+        .banner-hallo1{
+            display: none;
+        }
+
+        .banner-lua1{
+            display: none;
+
+        }
 
     
 }
