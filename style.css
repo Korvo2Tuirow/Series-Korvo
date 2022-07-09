@@ -53,14 +53,14 @@ border-radius: 1.5%;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    height: 50%;
+    height: 100%;
+    background-image: url(media/Halo-Logo2.png);
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 
-}
 
-.logo2{
-    position: absolute;
-   width: 100%;
-    bottom: 0;
+
 }
 
 
