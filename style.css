@@ -46,6 +46,25 @@ border-radius: 1.5%;
       
 }
 
+.divimg{
+    position:absolute ;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+
+}
+
+.logo2{
+    position: absolute;
+   width: 100%;
+    bottom: 0;
+}
+
+
+
 #series{
     margin-right: 2em;
     
